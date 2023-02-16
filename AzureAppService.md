@@ -1,9 +1,8 @@
-# Azure App Service Should Only Allow Anonymous Access When Necessary
+# Microsoft Security Recommendations
+[Security recommendations - Azure App Service | Microsoft Learn](https://learn.microsoft.com/en-us/azure/app-service/security-recommendations).
 
-From **Microsoft**, [Security recommendations - Azure App Service | Microsoft Learn](https://learn.microsoft.com/en-us/azure/app-service/security-recommendations).
 
-
-## Az command to check
+## App Should Enable Authentication
 
 >az webapp list --query [*].id
 >az webapp auth show --ids  "/subscriptions/xxx/resourceGroups/xxx/providers/Microsoft.Web/sites/xxx" --query enabled
